@@ -19,8 +19,10 @@ exports.Leao = void 0;
 var felino_1 = require("./felino");
 var Leao = /** @class */ (function (_super) {
     __extends(Leao, _super);
-    function Leao() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function Leao(name) {
+        var _this = _super.call(this) || this;
+        _this.name = name;
+        return _this;
     }
     Leao.prototype.emitSound = function (sound) {
         console.log("Leao emite ".concat(sound));

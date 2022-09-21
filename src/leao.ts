@@ -1,6 +1,13 @@
 import { Felino } from "./felino";
 
 class Leao extends Felino {
+    public name : string;
+
+    constructor (name: string) {
+    super();
+    this.name = name ;
+    }
+    
     public emitSound(sound: string): void {
         console.log (`Leao emite ${sound}`)
     }
