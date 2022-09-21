@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "outDir": "build/"
+    },
+    "include": ["src", "build/script.js", "build/leao.js", "build/felino.js", "build/animal.js"]
+  } 
+  
